@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: 0;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 300px;
+  gap:50px;
+padding: 40px;
+background-color: azure;}
+.header input, button{
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+
+}
+.header input{
+  width: 60vw;
+}
+.tasklist{
+  width: 80vw;
+  margin-inline: auto;
+  margin-top:20px;
+}
+
+
+.done{
+  background-color: forestgreen;
+}
+.notdone{
+  background-color: brown;
+}
